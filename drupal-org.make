@@ -36,6 +36,9 @@ projects[mollom][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
+projects[radioactivity][version] = "2.8"
+projects[radioactivity][subdir] = "contrib"
+
 projects[realname][version] = "1.1"
 projects[realname][subdir] = "contrib"
 
