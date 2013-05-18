@@ -8,6 +8,7 @@ dependencies[] = advanced_help
 dependencies[] = block
 dependencies[] = comment
 dependencies[] = ctools
+dependencies[] = dashboard
 dependencies[] = dblog
 dependencies[] = devel
 dependencies[] = diff
