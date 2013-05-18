@@ -1,16 +1,17 @@
 <?php
+/**
+ * @file
+ * Enables modules and site configuration for a drupress site installation.
+ */
 
 /**
- * Implements hook_install_tasks().
+ * Implements hook_form_FORM_ID_alter() for install_configure_form().
+ *
+ * Allows the profile to alter the site configuration form.
  */
-function drupress_install_tasks($install_state) {
-  $tasks = array();
-
-  // Make sure we have more memory than 64M. if not lets try to increase it.
-  // @todo: Stick this in a hook_requirements.
-  if (ini_get('memory_limit') != '-1' && ini_get('memory_limit') <= '64M') {
-    ini_set('memory_limit', '94M');
-  }
+function drupress_form_install_configure_form_alter(&$form, $form_state) {
+  // Pre-populate the site name.
+  $form['site_information']['site_name']['#default_value'] = t('My DruPress Blog');
 }
 
 /**
