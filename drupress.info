@@ -30,6 +30,7 @@ dependencies[] = search
 dependencies[] = strongarm
 dependencies[] = system
 dependencies[] = taxonomy
+dependencies[] = text
 dependencies[] = token
 dependencies[] = update
 dependencies[] = user
