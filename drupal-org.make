@@ -27,6 +27,9 @@ projects[features][subdir] = "contrib"
 projects[field_group][version] = "1.1"
 projects[field_group][subdir] = "contrib"
 
+projects[gravatar][version] = "1.1"
+projects[gravatar][subdir] = "contrib"
+
 projects[insert][version] = "1.3"
 projects[insert][subdir] = "contrib"
 

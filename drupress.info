@@ -1,5 +1,5 @@
 name = Drupress
-description = A Drupal distribution thatprovides your blog.
+description = A Drupal distribution that provides your blog.
 core = 7.x
 
 dependencies[] = admin_menu
@@ -8,7 +8,6 @@ dependencies[] = advanced_help
 dependencies[] = block
 dependencies[] = comment
 dependencies[] = ctools
-dependencies[] = dashboard
 dependencies[] = dblog
 dependencies[] = devel
 dependencies[] = diff
@@ -19,6 +18,7 @@ dependencies[] = field_sql_storage
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = filter
+dependencies[] = gravatar
 dependencies[] = image
 dependencies[] = list
 dependencies[] = menu
