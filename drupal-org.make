@@ -21,6 +21,9 @@ projects[devel][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
+projects[entity][version] = "1.1"
+projects[entity][subdir] = "contrib"
+
 projects[features][version] = "2.0-beta2"
 projects[features][subdir] = "contrib"
 
