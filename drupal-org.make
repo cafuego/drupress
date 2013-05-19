@@ -9,6 +9,9 @@ projects[admin_menu][subdir] = "contrib"
 projects[advanced_help][version] = "1.0"
 projects[advanced_help][subdir] = "contrib"
 
+projects[better_formats][version] = "1.0-beta1"
+projects[better_formats][subdir] = "contrib"
+
 projects[colorbox][version] = "2.4"
 projects[colorbox][subdir] = "contrib"
 
