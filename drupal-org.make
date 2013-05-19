@@ -36,6 +36,9 @@ projects[gravatar][subdir] = "contrib"
 projects[insert][version] = "1.3"
 projects[insert][subdir] = "contrib"
 
+projects[libraries][version] = "2.1"
+projects[libraries][subdir] = "contrib"
+
 projects[mollom][version] = "2.6"
 projects[mollom][subdir] = "contrib"
 
@@ -73,5 +76,12 @@ projects[rubik][subdir] = "contrib"
 
 ; Libraries.
 
-; Colorbox
-; TinyMCE
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][destination] = "libraries"
+
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1.1/ckeditor_4.1.1_standard.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
