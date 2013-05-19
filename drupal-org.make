@@ -24,6 +24,12 @@ projects[devel][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
+projects[drupress_support][type] = "module"
+projects[drupress_support][subdir] = "contrib"
+projects[drupress_support][download][type] = "git"
+projects[drupress_support][download][url] = "http://git.drupal.org/sandbox/cafuego/1998512.git"
+projects[drupress_support][download][branch] = "7.x-1.x"
+
 projects[entity][version] = "1.1"
 projects[entity][subdir] = "contrib"
 
