@@ -18,6 +18,7 @@ dependencies[] = drupress_views
 dependencies[] = drupress_wysiwyg
 dependencies[] = entity
 dependencies[] = features
+dependencies[] = fe_block
 dependencies[] = field
 dependencies[] = field_group
 dependencies[] = field_sql_storage
