@@ -22,3 +22,24 @@ function system_form_install_select_profile_form_alter(&$form, $form_state) {
     $form['profile'][$key]['#value'] = 'drupress';
   }
 }
+
+/**
+ * Implements hook_install_tasks().
+ */
+function drupress_install_tasks(&$install_state) {
+  $tasks = array(
+    'drupress_enable_default_views' => array(),
+  );
+  return $tasks;
+}
+
+/**
+ * Enable the archive and taxonomy views that ship with the views module.
+ */
+function drupress_enable_default_views() {
+  $views_defaults = array(
+    'archive' => FALSE,
+    'taxonomy_term' => FALSE,
+  );
+  variable_set('views_defaults', $views_defaults);
+}
