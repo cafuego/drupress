@@ -28,6 +28,8 @@ function system_form_install_select_profile_form_alter(&$form, $form_state) {
  */
 function drupress_install_tasks(&$install_state) {
   $tasks = array(
+    'drupress_set_default_theme' => array(),
+    'drupress_set_jquery_version' => array(),
     'drupress_enable_default_views' => array(),
   );
   return $tasks;
@@ -42,4 +44,18 @@ function drupress_enable_default_views() {
     'taxonomy_term' => FALSE,
   );
   variable_set('views_defaults', $views_defaults);
+}
+
+/**
+ * Set the bootstrap theme as default.
+ */
+function drupress_set_default_theme() {
+  variable_set('theme_default', 'bootstrap');
+}
+
+/**
+ * Pick the right jquery version.
+ */
+function drupress_set_qjuery_version() {
+  variable_set('jquery_update_jquery_version', '1.7');
 }

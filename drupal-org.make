@@ -48,6 +48,9 @@ projects[gravatar][subdir] = "contrib"
 projects[insert][version] = "1.3"
 projects[insert][subdir] = "contrib"
 
+projects[jquery_update][version] = "2.3"
+projects[jquery_update][subdir] = "contrib"
+
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 
@@ -85,6 +88,9 @@ projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 
 ; Themes.
+
+projects[bootstrap][version] = "2.2"
+projects[bootstrap][subdir] = "contrib"
 
 projects[tao][version] = "3.0-beta4"
 projects[tao][subdir] = "contrib"
