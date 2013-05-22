@@ -11,7 +11,7 @@
  */
 function drupress_form_install_configure_form_alter(&$form, $form_state) {
   // Pre-populate the site name.
-  $form['site_information']['site_name']['#default_value'] = t('My DruPress Blog');
+  $form['site_information']['site_name']['#default_value'] = t('My Drupress Blog');
 }
 
 /**
