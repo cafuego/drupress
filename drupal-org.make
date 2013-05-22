@@ -54,8 +54,14 @@ projects[libraries][subdir] = "contrib"
 projects[mollom][version] = "2.6"
 projects[mollom][subdir] = "contrib"
 
+projects[nodeformsettings][version] = "2.x-dev"
+projects[nodeformsettings][subdir] = "contrib"
+
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
+
+projects[publish_button][version] = "1.0-beta8"
+projects[publish_button][subdir] = "contrib"
 
 projects[radioactivity][version] = "2.8"
 projects[radioactivity][subdir] = "contrib"
