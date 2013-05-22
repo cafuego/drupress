@@ -33,13 +33,13 @@ projects[drupress_support][download][branch] = "7.x-1.x"
 projects[entity][version] = "1.2"
 projects[entity][subdir] = "contrib"
 
-projects[features][version] = "2.0-rc2"
+projects[features][version] = "2.0-rc3"
 projects[features][subdir] = "contrib"
 
 projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
 
-projects[field_group][version] = "1.1"
+projects[field_group][version] = "1.2"
 projects[field_group][subdir] = "contrib"
 
 projects[gravatar][version] = "1.1"
