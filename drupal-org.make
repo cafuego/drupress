@@ -33,7 +33,7 @@ projects[drupress_support][download][branch] = "7.x-1.x"
 projects[entity][version] = "1.1"
 projects[entity][subdir] = "contrib"
 
-projects[features][version] = "2.0-rc1"
+projects[features][version] = "2.0-rc2"
 projects[features][subdir] = "contrib"
 
 projects[features_extra][version] = "1.0-beta1"
@@ -51,7 +51,7 @@ projects[insert][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 
-projects[mollom][version] = "2.6"
+projects[mollom][version] = "2.7"
 projects[mollom][subdir] = "contrib"
 
 projects[nodeformsettings][version] = "2.x-dev"
