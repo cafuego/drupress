@@ -30,7 +30,7 @@ projects[drupress_support][download][type] = "git"
 projects[drupress_support][download][url] = "http://git.drupal.org/sandbox/cafuego/1998512.git"
 projects[drupress_support][download][branch] = "7.x-1.x"
 
-projects[entity][version] = "1.1"
+projects[entity][version] = "1.2"
 projects[entity][subdir] = "contrib"
 
 projects[features][version] = "2.0-rc2"
@@ -89,7 +89,7 @@ projects[wysiwyg][subdir] = "contrib"
 projects[tao][version] = "3.0-beta4"
 projects[tao][subdir] = "contrib"
 
-projects[rubik][version] = "4.0-beta8"
+projects[rubik][version] = "4.0-beta9"
 projects[rubik][subdir] = "contrib"
 
 ; Libraries.
