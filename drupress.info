@@ -13,6 +13,7 @@ dependencies[] = dashboard
 dependencies[] = dblog
 dependencies[] = devel
 dependencies[] = diff
+dependencies[] = drupress_support
 dependencies[] = drupress_blog
 dependencies[] = drupress_views
 dependencies[] = drupress_wysiwyg

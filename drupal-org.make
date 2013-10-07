@@ -24,16 +24,13 @@ projects[devel][subdir] = "contrib"
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
-projects[drupress_support][type] = "module"
+projects[drupress_support][version] = "1.x"
 projects[drupress_support][subdir] = "contrib"
-projects[drupress_support][download][type] = "git"
-projects[drupress_support][download][url] = "http://git.drupal.org/sandbox/cafuego/1998512.git"
-projects[drupress_support][download][branch] = "7.x-1.x"
 
 projects[entity][version] = "1.2"
 projects[entity][subdir] = "contrib"
 
-projects[features][version] = "2.0-rc4"
+projects[features][version] = "2.0-rc5"
 projects[features][subdir] = "contrib"
 
 projects[features_extra][version] = "1.0-beta1"
