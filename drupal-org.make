@@ -18,9 +18,6 @@ projects[colorbox][subdir] = "contrib"
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
-projects[devel][version] = "1.x-dev"
-projects[devel][subdir] = "contrib"
-
 projects[diff][version] = "3.2"
 projects[diff][subdir] = "contrib"
 
