@@ -56,6 +56,6 @@ function drupress_set_default_theme() {
 /**
  * Pick the right jquery version.
  */
-function drupress_set_qjuery_version() {
+function drupress_set_jquery_version() {
   variable_set('jquery_update_jquery_version', '1.7');
 }
