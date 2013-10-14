@@ -31,6 +31,7 @@ function drupress_install_tasks(&$install_state) {
     'drupress_set_default_theme' => array(),
     'drupress_set_jquery_version' => array(),
     'drupress_enable_default_views' => array(),
+    'drupress_enable_archive_block' => array(),
   );
   return $tasks;
 }
@@ -58,4 +59,40 @@ function drupress_set_default_theme() {
  */
 function drupress_set_jquery_version() {
   variable_set('jquery_update_jquery_version', '1.7');
+}
+
+/**
+ * Enable the archive block.
+ */
+function drupress_enable_archive_block() {
+  // The post archive block.
+  $block = array(
+    'module' => 'views',
+    'delta' => 'archive-block',
+    'theme' => variable_get('theme_default', 'bootstrap'),
+    'status' => 1,
+    'weight' => 0,
+    'region' => 'sidebar_second',
+    'custom' => 0,
+    'visibility' => 0,
+    'pages' => '',
+    'title' => 'Archive',
+    'cache' => DRUPAL_NO_CACHE,
+  );
+
+  // Oogly. It seems that depending on feature version, the blocks may or may
+  // not get created as intended. Catch the AlreadyExists error and run an
+  // update query in that case.
+  try {
+    db_insert('block')
+      ->fields($block)
+      ->execute();
+  } catch (Exception $e) {
+    db_update('block')
+      ->fields($block)
+      ->condition('module', $block['module'])
+      ->condition('delta', $block['delta'])
+      ->condition('theme', $block['theme'])
+      ->execute();
+  }
 }
