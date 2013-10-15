@@ -7,6 +7,7 @@ dependencies[] = admin_menu_toolbar
 dependencies[] = advanced_help
 dependencies[] = better_formats
 dependencies[] = block
+dependencies[] = bootstrap
 dependencies[] = colorbox
 dependencies[] = comment
 dependencies[] = ctools
@@ -52,3 +53,10 @@ dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 dependencies[] = wysiwyg
 files[] = drupress.profile
+
+; ----------
+; Variables
+; ----------
+variables[admin_theme] = 'rubik'
+variables[node_admin_theme] = 1
+variables[theme_default] = 'bootstrap'
