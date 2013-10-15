@@ -28,6 +28,7 @@ dependencies[] = filter
 dependencies[] = gravatar
 dependencies[] = image
 dependencies[] = insert
+dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = list
 dependencies[] = menu
