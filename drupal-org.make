@@ -27,7 +27,7 @@ projects[drupress_support][subdir] = "contrib"
 projects[entity][version] = "1.2"
 projects[entity][subdir] = "contrib"
 
-projects[features][version] = "2.0-rc5"
+projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
 
 projects[features_extra][version] = "1.0-beta1"
