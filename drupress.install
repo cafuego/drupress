@@ -70,7 +70,7 @@ function drupress_install() {
 
   // Enable some standard blocks.
   $default_theme = 'bootstrap';
-  $admin_theme = 'rubik';
+  $admin_theme = 'shiny';
   $blocks = array(
     array(
       'module' => 'system',
@@ -263,10 +263,19 @@ function drupress_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'rubik')
+    ->condition('name', 'shiny')
     ->execute();
 
   variable_set('theme_default', $default_theme);
-  variable_set('admin_theme', 'rubik');
+  variable_set('admin_theme', 'shiny');
   variable_set('node_admin_theme', '1');
+}
+
+/**
+ * Change the default admin theme to Shiny, unless the user changed it.
+ */
+function drupress_update_7001() {
+  if (variable_get('admin_theme', 'rubik') != 'rubik') {
+    variable_set('admin_theme', 'shiny');
+  }
 }

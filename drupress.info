@@ -57,6 +57,6 @@ files[] = drupress.profile
 ; ----------
 ; Variables
 ; ----------
-variables[admin_theme] = 'rubik'
+variables[admin_theme] = 'shiny'
 variables[node_admin_theme] = 1
 variables[theme_default] = 'bootstrap'

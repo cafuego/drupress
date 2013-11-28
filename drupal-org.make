@@ -86,11 +86,8 @@ projects[wysiwyg][subdir] = "contrib"
 projects[bootstrap][version] = "2.2"
 projects[bootstrap][subdir] = "contrib"
 
-projects[tao][version] = "3.0-beta4"
-projects[tao][subdir] = "contrib"
-
-projects[rubik][version] = "4.0-beta9"
-projects[rubik][subdir] = "contrib"
+projects[shiny][version] = "1.4"
+projects[shiny][subdir] = "contrib"
 
 ; Libraries.
 
