@@ -12,7 +12,7 @@ projects[advanced_help][subdir] = "contrib"
 projects[better_formats][version] = "1.0-beta1"
 projects[better_formats][subdir] = "contrib"
 
-projects[colorbox][version] = "2.4"
+projects[colorbox][version] = "2.5"
 projects[colorbox][subdir] = "contrib"
 
 projects[ctools][version] = "1.3"
@@ -48,7 +48,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 
-projects[mollom][version] = "2.7"
+projects[mollom][version] = "2.8"
 projects[mollom][subdir] = "contrib"
 
 projects[nodeformsettings][version] = "2.x-dev"
@@ -86,11 +86,8 @@ projects[wysiwyg][subdir] = "contrib"
 projects[bootstrap][version] = "2.2"
 projects[bootstrap][subdir] = "contrib"
 
-projects[tao][version] = "3.0-beta4"
-projects[tao][subdir] = "contrib"
-
-projects[rubik][version] = "4.0-beta9"
-projects[rubik][subdir] = "contrib"
+projects[shiny][version] = "1.4"
+projects[shiny][subdir] = "contrib"
 
 ; Libraries.
 
