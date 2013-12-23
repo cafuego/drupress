@@ -135,11 +135,11 @@ function drupress_enable_comments_block() {
 /**
  * Enable the categories block.
  */
-function drupress_enable_comments_block() {
+function drupress_enable_categories_block() {
   // The recent comments block.
   $block = array(
     'module' => 'views',
-    'delta' => 'comments_recent-block',
+    'delta' => 'categories-block',
     'theme' => variable_get('theme_default', 'bootstrap'),
     'status' => 1,
     'weight' => -7,
@@ -147,7 +147,7 @@ function drupress_enable_comments_block() {
     'custom' => 0,
     'visibility' => 0,
     'pages' => '',
-    'title' => 'Recent comments',
+    'title' => 'Categories',
     'cache' => DRUPAL_NO_CACHE,
   );
 
