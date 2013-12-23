@@ -136,7 +136,7 @@ function drupress_enable_comments_block() {
  * Enable the categories block.
  */
 function drupress_enable_categories_block() {
-  // The recent comments block.
+  // The categories block.
   $block = array(
     'module' => 'views',
     'delta' => 'categories-block',
