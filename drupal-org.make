@@ -6,7 +6,7 @@ core = 7.x
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
-projects[advanced_help][version] = "1.0"
+projects[advanced_help][version] = "1.1"
 projects[advanced_help][subdir] = "contrib"
 
 projects[better_formats][version] = "1.0-beta1"
@@ -75,7 +75,7 @@ projects[token][subdir] = "contrib"
 projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.1"
+projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
 
 projects[wysiwyg][version] = "2.2"

@@ -1,7 +1,7 @@
 api = 2
 core = 7.x
 projects[drupal][type] = core
-projects[drupal][version] = 7.24
+projects[drupal][version] = 7.25
 
 ; This requires a core bug fix to not show the profile selection page when only
 ; one profile is visible.
