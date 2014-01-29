@@ -7,7 +7,6 @@ dependencies[] = admin_menu_toolbar
 dependencies[] = advanced_help
 dependencies[] = better_formats
 dependencies[] = block
-dependencies[] = bootstrap
 dependencies[] = colorbox
 dependencies[] = comment
 dependencies[] = ctools
