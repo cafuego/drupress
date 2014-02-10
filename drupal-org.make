@@ -45,7 +45,7 @@ projects[insert][subdir] = "contrib"
 projects[jquery_update][version] = "2.3"
 projects[jquery_update][subdir] = "contrib"
 
-projects[libraries][version] = "2.1"
+projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
 projects[mollom][version] = "2.8"
