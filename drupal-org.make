@@ -15,7 +15,7 @@ projects[better_formats][subdir] = "contrib"
 projects[colorbox][version] = "2.5"
 projects[colorbox][subdir] = "contrib"
 
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
 projects[diff][version] = "3.2"
@@ -24,7 +24,7 @@ projects[diff][subdir] = "contrib"
 projects[drupress_support][version] = "1.x-dev"
 projects[drupress_support][subdir] = "contrib"
 
-projects[entity][version] = "1.3"
+projects[entity][version] = "1.5"
 projects[entity][subdir] = "contrib"
 
 projects[features][version] = "2.0"
@@ -42,13 +42,13 @@ projects[gravatar][subdir] = "contrib"
 projects[insert][version] = "1.3"
 projects[insert][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.3"
+projects[jquery_update][version] = "2.4"
 projects[jquery_update][subdir] = "contrib"
 
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
-projects[mollom][version] = "2.8"
+projects[mollom][version] = "2.9"
 projects[mollom][subdir] = "contrib"
 
 projects[nodeformsettings][version] = "2.x-dev"
@@ -57,13 +57,13 @@ projects[nodeformsettings][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
-projects[publish_button][version] = "1.0-beta8"
+projects[publish_button][version] = "1.0"
 projects[publish_button][subdir] = "contrib"
 
-projects[radioactivity][version] = "2.8"
+projects[radioactivity][version] = "2.9"
 projects[radioactivity][subdir] = "contrib"
 
-projects[realname][version] = "1.1"
+projects[realname][version] = "1.2"
 projects[realname][subdir] = "contrib"
 
 projects[strongarm][version] = "2.x-dev"
