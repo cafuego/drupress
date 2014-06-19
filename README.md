@@ -1,6 +1,6 @@
-# WELCOME
-
 [![Build Status](https://travis-ci.org/cafuego/drupress.svg?branch=master)](https://travis-ci.org/cafuego/drupress)
+
+# WELCOME
 
 Hi and welcome to Drupress, your convenient Drupal Blog distribution.
 
