@@ -35,7 +35,7 @@ install:
   # Build Codebase
   - cd ../
   - mkdir profiles
-  - mv agov-profile profiles/agov
+  - mv drupress profiles/drupress
   - mkdir drupal
   - mv profiles drupal/
 
