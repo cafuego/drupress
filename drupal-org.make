@@ -33,7 +33,7 @@ projects[features][subdir] = "contrib"
 projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
 
-projects[field_group][version] = "1.3"
+projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 
 projects[gravatar][version] = "1.1"
@@ -72,7 +72,7 @@ projects[strongarm][subdir] = "contrib"
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.9"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"
